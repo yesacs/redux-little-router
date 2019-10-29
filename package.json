@@ -6,6 +6,7 @@
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
   "scripts": {
+    "install": "npm run build",
     "preversion": "npm run check",
     "precommit": "lint-staged",
     "version": "npm run clean && npm run build",
@@ -135,8 +136,8 @@
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0",
     "react-dom": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0",
-    "react-redux": "^4.0.0 || ^5.0.0",
-    "redux": "^3.0.0"
+    "react-redux": "^4.0.0 || ^5.0.0 || ^6.0.0 ||  ^7.0.0",
+    "redux": "^3.0.0 || ^4.0.0"
   },
   "nyc": {
     "sourceMap": false,
