@@ -6,7 +6,7 @@
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
   "scripts": {
-    "install": "npm run build",
+    "install": "npm install && npm run build",
     "preversion": "npm run check",
     "precommit": "lint-staged",
     "version": "npm run clean && npm run build",
